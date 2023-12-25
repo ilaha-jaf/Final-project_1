@@ -1,0 +1,276 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+ 
+
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-links {
+    display: flex;
+    justify-content: end;
+}
+.social-links a {
+
+    text-decoration: none;
+    margin-right: 10px;
+}
+.search-box {
+    display: flex;
+justify-content: space-between;
+}
+.search-box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px; 
+  margin-bottom: 20px;
+}
+
+
+#searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 250px; 
+}
+
+
+#searchButton {
+  padding: 8px 15px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+#searchButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.account-info {
+    margin-left: 20px;
+
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+ 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.content {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 50px; 
+    background-color: #f9f9f9; 
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+.text {
+    text-align: left; 
+    color: #333; 
+}
+
+
+.account-info a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+
+  .account-info .account-link {
+    background-color: #393280;
+    color: #fff;
+  }
+  
+  .account-info .account-link:hover {
+    background-color: #281d5a;
+  }
+  
+  .account-info .cart-link {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .account-info .cart-link:hover {
+    background-color: #0056b3;
+  }
+  .account-info {
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #393280;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.book-image {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+   margin-top: 54px;
+  }
+  
+.book-container{
+    position: relative;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+.book-container p{
+  text-align: center;
+}
+
+.container-child2 img{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 42px;
+    width: 220px;
+height: 318px;
+}
+.container-child2 .bookinfo p{
+    text-align: center;
+}
+.book-name{
+    color: #393280;
+font-family: Inter;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+.book-author{
+    color: #888;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.28px;
+text-transform: capitalize;
+margin-top: -10px;
+}
+.price{
+    color: #ED553B;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.36px;
+text-transform: capitalize;
+}
+.container-header{
+text-align: center;
+margin-top: 90px;
+}
+.container-header h3{
+    color: #7A7A7A;
+text-align: center;
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.56px;
+text-transform: uppercase;
+}
+.container-header h2{
+    margin-top: 0px;
+    color: #393280;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.cart-button {
+    position: absolute;
+    top: 72.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ee5959;
+    color: #fff;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    border-radius: 7px;
+    
+}
